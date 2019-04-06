@@ -11,11 +11,12 @@
   </parent>
   <!--groupId / -->
   <!--artifactId / -->
-  <artifactId>nhojpatrick-cucumber-template-1.2.5</artifactId>
+  <artifactId>nhojpatrick-cucumber-template-v1</artifactId>
   <!--packaging / -->
   <packaging>jar</packaging>
   <!--name / -->
-  <!--version / -->
+  <name>Cucumber v1.x example</name>
+<!--version / -->
   <!--description / -->
   <!--url / -->
   <!--prerequisites / -->

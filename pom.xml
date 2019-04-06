@@ -179,8 +179,8 @@
     <!--profiles / -->
     <!--modules / -->
     <modules>
-        <module>cucumber-1.2.5</module>
-        <module>cucumber-4.2.0</module>
+        <module>cucumber-v1.x</module>
+        <module>cucumber-v4.x</module>
     </modules>
     <!--repositories / -->
     <!--pluginRepositories / -->
