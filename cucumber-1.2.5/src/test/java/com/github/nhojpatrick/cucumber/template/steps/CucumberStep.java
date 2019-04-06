@@ -9,10 +9,16 @@ import static org.hamcrest.core.IsEqual.equalTo;
 
 public class CucumberStep {
 
-    @Given("step takes ages")
-    public void stepTakesAges()
+    @Given("Background step takes ages")
+    public void backgroundStepTakesAges()
             throws Exception {
-        Thread.sleep(10000);
+        Thread.sleep(400);
+    }
+
+    @Given("Scenario Outline step takes ages")
+    public void scenarioOutlineStepTakesAges()
+            throws Exception {
+        Thread.sleep(550);
     }
 
     @Then("^name \"([^\"]*)\" matches value \"([^\"]*)\"$")
