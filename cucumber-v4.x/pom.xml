@@ -78,7 +78,7 @@
 	<!--distributionManagement / -->
 	<!--properties / -->
 	<properties>
-		<dependency.io.cucumber.version>4.3.1</dependency.io.cucumber.version>
+		<dependency.io.cucumber.version>4.6.0</dependency.io.cucumber.version>
 		<dependency.org.slf4j.version>1.7.26</dependency.org.slf4j.version>
 	</properties>
 </project>
