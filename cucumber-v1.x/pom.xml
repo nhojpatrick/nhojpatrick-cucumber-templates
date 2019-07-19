@@ -39,13 +39,13 @@
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>1.2.5</version>
+			<version>${dependency.info.cukes.cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>1.2.5</version>
+			<version>${dependency.info.cukes.cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -57,12 +57,12 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.26</version>
+			<version>${dependency.org.slf4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.26</version>
+			<version>${dependency.org.slf4j.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -71,4 +71,8 @@
 	<!--dependencyManagement / -->
 	<!--distributionManagement / -->
 	<!--properties / -->
+	<properties>
+		<dependency.info.cukes.cucumber.version>1.2.5</dependency.info.cukes.cucumber.version>
+		<dependency.org.slf4j.version>1.7.26</dependency.org.slf4j.version>
+	</properties>
 </project>
