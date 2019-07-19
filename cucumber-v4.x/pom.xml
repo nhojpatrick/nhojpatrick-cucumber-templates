@@ -39,19 +39,19 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>4.3.1</version>
+			<version>${dependency.io.cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java8</artifactId>
-			<version>4.3.1</version>
+			<version>${dependency.io.cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>4.3.1</version>
+			<version>${dependency.io.cucumber.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -63,12 +63,12 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.26</version>
+			<version>${dependency.org.slf4j.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-			<version>1.7.26</version>
+			<version>${dependency.org.slf4j.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -77,4 +77,8 @@
 	<!--dependencyManagement / -->
 	<!--distributionManagement / -->
 	<!--properties / -->
+	<properties>
+		<dependency.io.cucumber.version>4.3.1</dependency.io.cucumber.version>
+		<dependency.org.slf4j.version>1.7.26</dependency.org.slf4j.version>
+	</properties>
 </project>
