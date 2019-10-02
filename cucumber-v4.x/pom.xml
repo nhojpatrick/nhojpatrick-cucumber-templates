@@ -80,6 +80,8 @@
 	<properties>
 		<dependency.io.cucumber>4.7.2</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.1</dependency.org.hamcrest>
-		<dependency.org.slf4j>1.7.26</dependency.org.slf4j>
+		<dependency.org.slf4j>1.7.28</dependency.org.slf4j>
+		<downloadSources>true</downloadSources>
+		<downloadJavadocs>true</downloadJavadocs>
 	</properties>
 </project>
