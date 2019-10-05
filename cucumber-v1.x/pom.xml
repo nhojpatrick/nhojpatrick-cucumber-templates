@@ -74,6 +74,6 @@
 	<properties>
 		<dependency.info.cukes.cucumber.version>1.2.5</dependency.info.cukes.cucumber.version>
 		<dependency.org.hamcrest>2.1</dependency.org.hamcrest>
-		<dependency.org.slf4j>1.7.26</dependency.org.slf4j>
+		<dependency.org.slf4j>1.7.28</dependency.org.slf4j>
 	</properties>
 </project>
