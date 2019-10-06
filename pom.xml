@@ -172,11 +172,36 @@
 		</plugins>
 	</build>
 	<!--profiles / -->
+	<profiles>
+		<profile>
+			<id>v1</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>cucumber-v1.x</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>v4</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>cucumber-v4.x</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>v5</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>cucumber-v5.x</module>
+			</modules>
+		</profile>
+	</profiles>
 	<!--modules / -->
-	<modules>
-		<module>cucumber-v1.x</module>
-		<module>cucumber-v4.x</module>
-	</modules>
 	<!--repositories / -->
 	<!--pluginRepositories / -->
 	<!--dependencies / -->
