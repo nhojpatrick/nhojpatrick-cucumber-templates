@@ -58,7 +58,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
-					<version>2.22.1</version>
+					<version>${version.maven-failsafe-plugin}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -88,7 +88,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>2.22.1</version>
+					<version>${version.maven-surefire-plugin}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -225,5 +225,8 @@
 		<downloadSources>true</downloadSources>
 		<downloadJavadocs>true</downloadJavadocs>
 		<generateBackupPoms>false</generateBackupPoms>
+		<!-- -->
+		<version.maven-failsafe-plugin>3.0.0-M3</version.maven-failsafe-plugin>
+		<version.maven-surefire-plugin>3.0.0-M3</version.maven-surefire-plugin>
 	</properties>
 </project>
