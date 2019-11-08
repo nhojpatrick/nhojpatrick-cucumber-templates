@@ -1,27 +1,33 @@
-package com.github.nhojpatrick.cucumber.template.steps;
+package com.github.nhojpatrick.cucumber.v4.template.steps;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import cucumber.api.java8.En;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsEqual.equalTo;
 
-public class CucumberStep {
+public class CucumberApiJavaStep implements En {
 
-    @Given("Background step takes ages")
+    public CucumberApiJavaStep() {
+        And("CucumberApiJava v4 Background lambda step name {string} matches value {string}",
+                (String name, String value) -> nameNameMatchesValueValue(name, value));
+    }
+
+    @Given("CucumberApiJava v4 Background step takes ages")
     public void backgroundStepTakesAges()
             throws Exception {
         Thread.sleep(400);
     }
 
-    @Given("Scenario Outline step takes ages")
+    @Given("CucumberApiJava v4 Scenario Outline step takes ages")
     public void scenarioOutlineStepTakesAges()
             throws Exception {
         Thread.sleep(550);
     }
 
-    @Then("^name \"([^\"]*)\" matches value \"([^\"]*)\"$")
+    @Then("CucumberApiJava v4 name {string} matches value {string}")
     public void nameNameMatchesValueValue(String name, String value) {
         assertThat(name, is(equalTo(value)));
     }

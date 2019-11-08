@@ -1,4 +1,4 @@
-package com.github.nhojpatrick.cucumber.template.hooks;
+package com.github.nhojpatrick.cucumber.v1.template.hooks;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
