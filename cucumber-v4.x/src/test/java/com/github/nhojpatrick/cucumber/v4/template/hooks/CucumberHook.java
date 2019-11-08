@@ -1,4 +1,4 @@
-package com.github.nhojpatrick.cucumber.template.hooks;
+package com.github.nhojpatrick.cucumber.v4.template.hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
