@@ -79,7 +79,7 @@
 	<!--properties / -->
 	<properties>
 		<dependency.io.cucumber>5.0.0-RC1</dependency.io.cucumber>
-		<dependency.org.hamcrest>2.1</dependency.org.hamcrest>
+		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.slf4j>1.7.28</dependency.org.slf4j>
 		<downloadSources>true</downloadSources>
 		<downloadJavadocs>true</downloadJavadocs>
