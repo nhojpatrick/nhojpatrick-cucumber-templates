@@ -78,7 +78,7 @@
 	<!--distributionManagement / -->
 	<!--properties / -->
 	<properties>
-		<dependency.io.cucumber>4.7.4</dependency.io.cucumber>
+		<dependency.io.cucumber>4.8.1</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
 		<downloadSources>true</downloadSources>
