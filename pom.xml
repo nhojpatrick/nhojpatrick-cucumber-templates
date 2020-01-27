@@ -226,7 +226,7 @@
 		<downloadJavadocs>true</downloadJavadocs>
 		<generateBackupPoms>false</generateBackupPoms>
 		<!-- -->
-		<version.maven-failsafe-plugin>3.0.0-M3</version.maven-failsafe-plugin>
-		<version.maven-surefire-plugin>3.0.0-M3</version.maven-surefire-plugin>
+		<version.maven-failsafe-plugin>3.0.0-M4</version.maven-failsafe-plugin>
+		<version.maven-surefire-plugin>3.0.0-M4</version.maven-surefire-plugin>
 	</properties>
 </project>
