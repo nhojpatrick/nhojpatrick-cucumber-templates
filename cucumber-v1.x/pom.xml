@@ -73,7 +73,7 @@
 	<!--properties / -->
 	<properties>
 		<dependency.info.cukes.cucumber.version>1.2.5</dependency.info.cukes.cucumber.version>
-		<dependency.org.hamcrest>2.1</dependency.org.hamcrest>
+		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
 		<!-- -->
 		<version.maven-failsafe-plugin>2.22.1</version.maven-failsafe-plugin>
