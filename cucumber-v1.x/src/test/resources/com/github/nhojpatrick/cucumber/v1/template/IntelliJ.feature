@@ -13,5 +13,3 @@ Feature: Feature Name
     Examples:
       | name | value |
       | one  | one   |
-      | one  | two   |
-      | one  | one   |
