@@ -183,6 +183,15 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>v3</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>cucumber-v3.x</module>
+			</modules>
+		</profile>
+		<profile>
 			<id>v4</id>
 			<activation>
 				<activeByDefault>false</activeByDefault>
