@@ -130,7 +130,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>versions-maven-plugin</artifactId>
-					<version>2.7</version>
+					<version>${plugins.codehaus.versions-maven-plugin}</version>
 					<dependencies>
 						<dependency>
 							<groupId>com.github.nhojpatrick.versions</groupId>
@@ -221,6 +221,36 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>versions</id>
+			<build>
+				<defaultGoal>validate</defaultGoal>
+				<plugins>
+					<plugin>
+						<groupId>org.codehaus.mojo</groupId>
+						<artifactId>versions-maven-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>versions-check</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>display-parent-updates</goal>
+									<goal>display-dependency-updates</goal>
+									<goal>display-plugin-updates</goal>
+									<goal>display-property-updates</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+			<properties>
+				<downloadJavadocs>false</downloadJavadocs>
+				<downloadSources>false</downloadSources>
+				<maven.version.rules>file:///${session.executionRootDirectory}/src/main/resources/com/github/nhojpatrick/versions/ruleset/rules.xml</maven.version.rules>
+				<sort.skip>true</sort.skip>
+			</properties>
+		</profile>
+		<profile>
 			<id>wrapper</id>
 			<build>
 				<defaultGoal>validate</defaultGoal>
@@ -282,6 +312,7 @@
 		<project.reporting.outputEncoding>${project.custom.encoding}</project.reporting.outputEncoding>
 		<!-- dependency versions -->
 		<!-- plugin versions -->
+		<plugins.codehaus.versions-maven-plugin>2.7</plugins.codehaus.versions-maven-plugin>
 		<plugins.maven.maven-failsafe-plugin>3.0.0-M4</plugins.maven.maven-failsafe-plugin>
 		<plugins.maven.maven-surefire-plugin>3.0.0-M4</plugins.maven.maven-surefire-plugin>
 		<plugins.takari.maven>0.7.7</plugins.takari.maven>
