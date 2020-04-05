@@ -226,6 +226,14 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>cicd</id>
+			<properties>
+				<downloadJavadocs>false</downloadJavadocs>
+				<downloadSources>false</downloadSources>
+				<sort.skip>true</sort.skip>
+			</properties>
+		</profile>
+		<profile>
 			<id>sortpom</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
