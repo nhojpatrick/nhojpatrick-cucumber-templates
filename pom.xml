@@ -64,7 +64,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
-					<version>${version.maven-failsafe-plugin}</version>
+					<version>${plugins.maven.maven-failsafe-plugin}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -94,7 +94,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>${version.maven-surefire-plugin}</version>
+					<version>${plugins.maven.maven-surefire-plugin}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
@@ -249,8 +249,9 @@
 		<project.build.outputEncoding>${project.custom.encoding}</project.build.outputEncoding>
 		<project.build.sourceEncoding>${project.custom.encoding}</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>${project.custom.encoding}</project.reporting.outputEncoding>
-		<!-- -->
-		<version.maven-failsafe-plugin>3.0.0-M4</version.maven-failsafe-plugin>
-		<version.maven-surefire-plugin>3.0.0-M4</version.maven-surefire-plugin>
+		<!-- dependency versions -->
+		<!-- plugin versions -->
+		<plugins.maven.maven-failsafe-plugin>3.0.0-M4</plugins.maven.maven-failsafe-plugin>
+		<plugins.maven.maven-surefire-plugin>3.0.0-M4</plugins.maven.maven-surefire-plugin>
 	</properties>
 </project>

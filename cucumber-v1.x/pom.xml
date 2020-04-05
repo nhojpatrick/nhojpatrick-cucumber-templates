@@ -72,11 +72,12 @@
 	<!--distributionManagement / -->
 	<!--properties / -->
 	<properties>
+		<!-- dependency versions -->
 		<dependency.info.cukes.cucumber.version>1.2.5</dependency.info.cukes.cucumber.version>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
-		<!-- -->
-		<version.maven-failsafe-plugin>2.22.1</version.maven-failsafe-plugin>
-		<version.maven-surefire-plugin>2.22.1</version.maven-surefire-plugin>
+		<!-- plugin versions -->
+		<plugins.maven.maven-failsafe-plugin>2.22.1</plugins.maven.maven-failsafe-plugin>
+		<plugins.maven.maven-surefire-plugin>2.22.1</plugins.maven.maven-surefire-plugin>
 	</properties>
 </project>
