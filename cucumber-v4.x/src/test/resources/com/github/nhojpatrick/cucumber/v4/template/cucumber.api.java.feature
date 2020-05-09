@@ -23,7 +23,7 @@ Feature: Feature Name cucumber.api.java
   Scenario Outline: Scenario outline 1 cucumber.api.java
     Given CucumberApiJava v4 Scenario Outline step takes ages
     Then CucumberApiJava v4 name "<name>" matches value "<value>"
-    Then CucumberApiJava v4 age 1 matches value 1
+    And CucumberApiJava v4 age 1 matches value 1
     Examples:
       | name | value |
       | one  | one   |
