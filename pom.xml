@@ -84,7 +84,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-install-plugin</artifactId>
-					<version>2.5.2</version>
+					<version>${plugins.org.apache.maven.plugins.maven-install-plugin}</version>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -411,6 +411,7 @@
 		<plugins.maven.maven-surefire-plugin>3.0.0-M4</plugins.maven.maven-surefire-plugin>
 		<plugins.org.apache.maven.plugins.maven-compiler-plugin>3.8.1</plugins.org.apache.maven.plugins.maven-compiler-plugin>
 		<plugins.org.apache.maven.plugins.maven-enforcer-plugin>3.0.0-M3</plugins.org.apache.maven.plugins.maven-enforcer-plugin>
+		<plugins.org.apache.maven.plugins.maven-install-plugin>3.0.0-M1</plugins.org.apache.maven.plugins.maven-install-plugin>
 		<plugins.org.apache.maven.plugins.maven-jar-plugin>3.2.0</plugins.org.apache.maven.plugins.maven-jar-plugin>
 		<plugins.org.apache.maven.plugins.maven-javadoc-plugin>3.2.0</plugins.org.apache.maven.plugins.maven-javadoc-plugin>
 		<plugins.org.apache.maven.plugins.maven-site-plugin>3.9.0</plugins.org.apache.maven.plugins.maven-site-plugin>
