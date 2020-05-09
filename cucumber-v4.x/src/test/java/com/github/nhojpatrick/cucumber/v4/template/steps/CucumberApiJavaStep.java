@@ -1,5 +1,6 @@
 package com.github.nhojpatrick.cucumber.v4.template.steps;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java8.En;
@@ -35,7 +36,7 @@ public class CucumberApiJavaStep implements En {
         assertThat(name, is(equalTo(value)));
     }
 
-    @Then("CucumberApiJava v4 age {int} matches value {int}")
+    @And("CucumberApiJava v4 age {int} matches value {int}")
     public void ageMatchesValue(int age, int value) {
         assertThat(age, is(equalTo(value)));
     }
