@@ -61,6 +61,18 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-engine</artifactId>
+			<version>${dependency.org.junit.platform}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.vintage</groupId>
+			<artifactId>junit-vintage-engine</artifactId>
+			<version>${dependency.org.junit.vintage}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>${dependency.org.slf4j}</version>
@@ -80,6 +92,8 @@
 	<properties>
 		<dependency.io.cucumber>[6.1.1,6.99.99)</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
+		<dependency.org.junit.platform>1.7.0</dependency.org.junit.platform>
+		<dependency.org.junit.vintage>5.7.0</dependency.org.junit.vintage>
 		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
 	</properties>
 </project>
