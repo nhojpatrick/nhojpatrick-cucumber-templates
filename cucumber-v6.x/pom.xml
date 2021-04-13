@@ -96,7 +96,7 @@
 	<!--distributionManagement / -->
 	<!--properties / -->
 	<properties>
-		<dependency.io.cucumber>6.10.0</dependency.io.cucumber>
+		<dependency.io.cucumber>6.10.1</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.junit.platform>1.7.1</dependency.org.junit.platform>
 		<dependency.org.junit.vintage>5.7.1</dependency.org.junit.vintage>
