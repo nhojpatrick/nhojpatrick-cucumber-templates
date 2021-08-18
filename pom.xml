@@ -75,6 +75,14 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
 					<version>${plugins.maven.maven-failsafe-plugin}</version>
+					<configuration>
+						<excludes>
+							<exclude>**/*Test.java</exclude>
+						</excludes>
+						<includes>
+							<include>**/*IT.java</include>
+						</includes>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -110,6 +118,14 @@
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>${plugins.maven.maven-surefire-plugin}</version>
+					<configuration>
+						<excludes>
+							<exclude>**/*IT.java</exclude>
+						</excludes>
+						<includes>
+							<include>**/*Test.java</include>
+						</includes>
+					</configuration>
 				</plugin>
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
