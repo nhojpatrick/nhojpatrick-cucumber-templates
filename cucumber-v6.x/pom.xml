@@ -69,13 +69,11 @@
 		<dependency>
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-engine</artifactId>
-			<version>${dependency.org.junit.platform}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.vintage</groupId>
 			<artifactId>junit-vintage-engine</artifactId>
-			<version>${dependency.org.junit.vintage}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -93,13 +91,23 @@
 	<!--reports (Deprecated) / -->
 	<!--reporting / -->
 	<!--dependencyManagement / -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.junit</groupId>
+				<artifactId>junit-bom</artifactId>
+				<version>${dependency.org.junit}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<!--distributionManagement / -->
 	<!--properties / -->
 	<properties>
 		<dependency.io.cucumber>6.11.0</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
-		<dependency.org.junit.platform>1.8.0-RC1</dependency.org.junit.platform>
-		<dependency.org.junit.vintage>5.8.0-RC1</dependency.org.junit.vintage>
+		<dependency.org.junit>5.8.2</dependency.org.junit>
 		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
 	</properties>
 </project>
