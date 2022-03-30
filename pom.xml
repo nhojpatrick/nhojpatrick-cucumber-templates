@@ -261,6 +261,15 @@
 			</modules>
 		</profile>
 		<profile>
+			<id>v7</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<modules>
+				<module>cucumber-v7.x</module>
+			</modules>
+		</profile>
+		<profile>
 			<id>cicd</id>
 			<properties>
 				<downloadJavadocs>false</downloadJavadocs>
