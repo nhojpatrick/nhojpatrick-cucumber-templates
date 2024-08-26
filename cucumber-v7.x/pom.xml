@@ -108,6 +108,6 @@
 		<dependency.io.cucumber>7.18.1</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.junit>5.11.0</dependency.org.junit>
-		<dependency.org.slf4j>2.0.9</dependency.org.slf4j>
+		<dependency.org.slf4j>2.0.10</dependency.org.slf4j>
 	</properties>
 </project>
