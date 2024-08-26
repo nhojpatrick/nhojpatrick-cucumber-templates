@@ -105,7 +105,7 @@
 	<!--distributionManagement / -->
 	<!--properties / -->
 	<properties>
-		<dependency.io.cucumber>7.14.1</dependency.io.cucumber>
+		<dependency.io.cucumber>7.15.0</dependency.io.cucumber>
 		<dependency.org.hamcrest>2.2</dependency.org.hamcrest>
 		<dependency.org.junit>5.9.1</dependency.org.junit>
 		<dependency.org.slf4j>2.0.6</dependency.org.slf4j>
