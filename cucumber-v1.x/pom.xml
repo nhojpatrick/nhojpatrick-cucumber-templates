@@ -78,6 +78,6 @@
 		<dependency.org.slf4j>1.7.30</dependency.org.slf4j>
 		<!-- plugin versions -->
 		<plugins.maven.maven-failsafe-plugin>2.22.1</plugins.maven.maven-failsafe-plugin>
-		<plugins.maven.maven-surefire-plugin>2.22.1</plugins.maven.maven-surefire-plugin>
+		<plugins.maven-surefire-plugin>2.22.1</plugins.maven-surefire-plugin>
 	</properties>
 </project>
