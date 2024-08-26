@@ -450,6 +450,6 @@
 		<plugins.org.apache.maven.plugins.maven-site-plugin>3.9.0</plugins.org.apache.maven.plugins.maven-site-plugin>
 		<plugins.sonatype.nexus-staging-maven-plugin>1.6.8</plugins.sonatype.nexus-staging-maven-plugin>
 		<plugins.takari.maven>0.7.7</plugins.takari.maven>
-		<plugins.versions-maven-plugin>2.15.0</plugins.versions-maven-plugin>
+		<plugins.versions-maven-plugin>2.16.0</plugins.versions-maven-plugin>
 	</properties>
 </project>
